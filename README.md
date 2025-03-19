@@ -1,2 +1,3 @@
-# Gizmo10.github.io
-Personal Webstite
+# Personal Website
+
+https://gizmo10.github.io/
