@@ -55,17 +55,7 @@ body {
 .logo:hover {
   transform: scale(1.1);
 }
-/*Sets a color for the surname
-span {
-    background: linear-gradient(
-        270deg,
-        #DF8908 10%,
-        #ff1d15 100%,
-    );
-    background-clip: text;
-    color: transparent;
-}
-*/
+
 .navbar a {
   font-size: 1.8 rem;
   color: var(--text-color);
@@ -398,4 +388,19 @@ section {
   border: 2px solid var(--main-color);
   margin: 1.5rem 0;
   resize: none;
+}
+
+.footer {
+  background-color: var(--alt-background-color);
+  padding: 5px 0;
+}
+
+.footer .social-icons {
+  text-align: center;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
 }
