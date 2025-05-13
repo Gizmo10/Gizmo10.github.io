@@ -84,7 +84,7 @@ span {
   font-size: 1.8 rem;
   padding: 1rem 2rem;
   border-radius: 3rem;
-  background: linear-gradient(270deg, #df8908 10%, #ff1d15 100%);
+  background: var(--main-color);
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -230,4 +230,91 @@ section {
 
 .about-content .btn {
   margin: 3rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+
+.heading {
+  text-align: center;
+  font-size: 7rem;
+  margin: 5rem 0;
+}
+
+.skills {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.skills h2 {
+  color: var(--text-color);
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.skill-info #percentage:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+}
+
+.skill-info h4 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
+#percentage {
+  height: 2rem;
+  background-color: var(--main-color);
+  border: 1px solid black;
+}
+
+.java-percentage {
+  width: 70%;
+}
+
+.javascript-percentage {
+  width: 65%;
+}
+
+.html-percentage {
+  width: 75%;
+}
+
+.css-percentage {
+  width: 67%;
+}
+
+.mysql-percentage {
+  width: 75%;
+}
+
+.postgresql-percentage {
+  width: 50%;
+}
+
+.node-percentage {
+  width: 50%;
+}
+
+.express-percentage {
+  width: 50%;
+}
+
+.docker-percentage {
+  width: 65%;
 }
