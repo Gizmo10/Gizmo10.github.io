@@ -3,5 +3,5 @@ const navbar = document.querySelector(".navbar");
 
 menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
-  navbar.classList.toggle("navbar active");
+  navbar.classList.toggle("active");
 };

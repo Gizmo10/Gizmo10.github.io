@@ -57,7 +57,7 @@ body {
 }
 
 .navbar a {
-  font-size: 1.8 rem;
+  font-size: 2rem;
   color: var(--text-color);
   margin-left: 4rem;
   font-weight: 500;
@@ -426,13 +426,14 @@ section {
 
   .navbar a {
     display: block;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 3rem 0;
     color: var(--text-color);
   }
 
   .navbar.active {
     display: block;
+    text-align: center;
   }
 
   .home {
@@ -447,7 +448,7 @@ section {
   }
 
   .home-img img {
-    width: 50vw;
+    width: 55vw;
   }
 
   .about {
