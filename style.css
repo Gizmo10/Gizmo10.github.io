@@ -449,7 +449,7 @@ section {
 
   .home-img img {
     width: 50vw;
-    height: 50vh;
+    height: 25vh;
   }
 
   .about {
@@ -464,6 +464,6 @@ section {
 
   .about img {
     width: 50vw;
-    height: 50vh;
+    height: 25vh;
   }
 }
