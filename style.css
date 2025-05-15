@@ -337,39 +337,7 @@ section {
   font-size: 1.5rem;
   font-family: "Times New Roman", Times, serif;
 }
-/*
-.contact {
-  background-color: var(--background-color);
-}
 
-.contact h2 {
-  color: white;
-  margin-bottom: 3rem;
-}
-
-.contact form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 3rem;
-  margin: 5rem 0;
-}
-
-.contact form .input-box input,
-.contact form textarea {
-  width: 100%;
-  padding: 2.5rem;
-  font-size: 1.8rem;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  border-radius: 2rem;
-  border: 2px solid var(--main-color);
-  margin: 1.5rem 0;
-  resize: none;
-}
-*/
 .footer {
   background-color: var(--alt-background-color);
   padding: 5px 0;
